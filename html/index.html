@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Keys - ChangeMe In Index.html</title> <!--Change ME Server Title-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu-container" class="menu-container hidden">
+        <div class="menu-header">
+            <h1>ChangeMe In Index.html</h1> <!--Change ME Server Title-->
+            <h2 id="menu-title">Vehicle Keys</h2>
+            <button id="close-btn" class="close-btn">×</button>
+        </div>
+        <div id="menu-search" class="menu-search hidden">
+            <input type="text" id="search-input" placeholder="Search by Discord ID or Player Name..." class="search-input">
+        </div>
+        <div id="menu-player-input" class="menu-player-input hidden">
+            <input type="text" id="player-id-input" placeholder="Enter Player ID..." class="player-id-input" inputmode="numeric" pattern="[0-9]*">
+        </div>
+        <div class="menu-content">
+            <div id="vehicles-list" class="vehicles-list">
+                <!-- Vehicles will be populated here -->
+            </div>
+            <div id="no-vehicles" class="no-vehicles hidden">
+                <p>You don't have access to any vehicles</p>
+            </div>
+        </div>
+        <div id="menu-footer-buttons" class="menu-footer-buttons hidden">
+            <button id="confirm-btn" class="confirm-btn">Confirm</button>
+        </div>
+        <div class="menu-footer">
+            <p id="footer-text">Use <kbd>↑</kbd> <kbd>↓</kbd> to navigate | <kbd>Enter</kbd> to select | <kbd>ESC</kbd> to close</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
