@@ -1,0 +1,19 @@
+{
+    "vehicles": {
+        "DISCORD_ID": [
+            "SPAWNCODE",
+            "SPAWNCODE",
+            "SPAWNCODE",
+            "SPAWNCODE"
+        ],
+        "DISCORD_ID": [
+            "SPAWNCODE",
+            "SPAWNCODE"
+        ]
+    },
+    "settings": {
+        "checkDiscordOnJoin": true,
+        "enableSpawnProtection": true,
+        "webhookUrl": "ChangeME"
+    }
+}
